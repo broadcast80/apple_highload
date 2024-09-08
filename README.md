@@ -11,7 +11,9 @@
 | **Великобритания**                         | 5                      |
 | **Канада**                                 | 4                      |
 
-Источники: [Apple Music Statistics 2024](https://headphonesaddict.com/apple-music-statistics/), [Form 10-K](https://s2.q4cdn.com/470004039/files/doc_earnings/2023/q4/filing/_10-K-Q4-2023-As-Filed.pdf)
+Источники: 
+1. [Apple Music Statistics 2024](https://headphonesaddict.com/apple-music-statistics/)
+2. [Form 10-K](https://s2.q4cdn.com/470004039/files/doc_earnings/2023/q4/filing/_10-K-Q4-2023-As-Filed.pdf)
 
 ## 2. MVP функционал
 
