@@ -67,7 +67,7 @@
   ```
   40 * 3.5 = 140 часов в день
   ```
-- Аналогично, используя статистику Spotify, можно узнать сколько в среднем плейлистов пользователи создают за день. Это количество равняется 1.3 млн в день. Учитывая что аудитория Spotify превосходит аудиторию Apple Music в 7 раз, то для того чтобы узнать сколько в среднем плейлистов за день создают пользователи Apple Music можно разделить 1.3 млн на 7.
+- Аналогично, используя статистику Spotify, можно узнать сколько в среднем плейлистов пользователи создают за день. Это количество равняется 1.3 млн в день [^5]. Учитывая что аудитория Spotify превосходит аудиторию Apple Music в 7 раз, то для того чтобы узнать сколько в среднем плейлистов за день создают пользователи Apple Music можно разделить 1.3 млн на 7.
   ```
   1.3 / 7 = 0.1857 млн = 185.7 тыс в день
   ```
@@ -79,3 +79,4 @@
 [^2]: [Form 10-K](https://s2.q4cdn.com/470004039/files/doc_earnings/2023/q4/filing/_10-K-Q4-2023-As-Filed.pdf)
 [^3]: [Hypestat](https://hypestat.com/info/music.apple.com)
 [^4]: [Insights into Spotify Listening Statistics](https://wifitalents.com/statistic/spotify-listening/)
+[^5]: [Exploring Eye-Opening Spotify Playlist Statistics: 4 Billion Playlists Created](https://gitnux.org/spotify-playlist-statistics/)
