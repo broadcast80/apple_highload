@@ -120,9 +120,9 @@
 | **Великобритания**                         | 5                      |
 | **Канада**                                 | 4                      |
 
-(суммарно большой трафик из европы, однако т.к. каждая страна считается отдельно, они почти не представлены в распределении выше)
+(достаточно большой процент составляет трафик из европы, однако т.к. каждая страна считается отдельно, они почти не представлены в распределении выше)
 
-Согласно данным о распределении пользователей Apple Music, а также основываясь на основных точках присутствия провайдеров и подводных магистральных сетей, можно составить следующие места расположения ЦОДов:
+Согласно данным о распределении пользователей Apple Music, а также основываясь на основных точках присутствия провайдеров [^7] и подводных магистральных сетей [^8], можно составить следующие места расположения ЦОДов:
 - Вашингтон
 - Сиэтл
 - Нью-Дэли
@@ -137,5 +137,6 @@
 [^3]: [Hypestat](https://hypestat.com/info/music.apple.com)
 [^4]: [Insights into Spotify Listening Statistics](https://wifitalents.com/statistic/spotify-listening/)
 [^5]: [Exploring Eye-Opening Spotify Playlist Statistics: 4 Billion Playlists Created](https://gitnux.org/spotify-playlist-statistics/)
-[^6]: [Celebrating 100 million songs
-](https://www.apple.com/newsroom/2022/10/celebrating-100-million-songs/)
+[^6]: [Celebrating 100 million songs](https://www.apple.com/newsroom/2022/10/celebrating-100-million-songs/)
+[^7]: [IEM](https://www.internetexchangemap.com/)
+[^8]: [Submarine Cable Map](https://www.submarinecablemap.com/)
