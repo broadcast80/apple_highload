@@ -141,6 +141,25 @@
 ### L7 балансировка
 Используем HTTP Reverse Proxy в качестве которого выступает Nginx. Он будет распределять запросы от клиентов по нескольким бекендам и решать проблему медленных юзеров (когда воркер сразу отдает ответ Nginx а не ждет пока клиент его получит).
 
+## 5. Логическая схема БД
+
+![image](https://github.com/user-attachments/assets/ad3f815e-1320-4fc8-b5fd-df0be25c9be5)
+
+
+|Таблица |Требование к консистентности |Размер |
+| ------------- |-------------| -------------|
+|User| id - PK, email - UNIQUE, username - UNIQUE|4 + 20 + 30 + 8 + 50 + 20 = 132 байта |
+|Session| session_id - PK |8 + 8 + 8 = 24 байта |
+|Playlist| playlist_id - PK |8 + 8 + 20 + 50 + 30 = 116 байт |
+|Song| id - PK |8 + 20 + 50 + 4 + 2 + 8 = 92 байтa |
+|Playlist_Song| playlist_id, song_id - PK |8 + 8 = 16 байт |
+|LikedSongs| song_id, user_id - PK |8 + 8 = 16 байт |
+|Genre| id - PK |4 + 20 = 24 байтa |
+|Genre_Song| genre_id, song_id - PK |4 + 8 = 12 байт |
+|Album| id - PK |8 + 30 + 50 + 8 + 4 = 100 байт |
+|Artist| id - PK |4 + 20 + 2 + 256 + 2 + 4 = 288 байт |
+
+
 
 Источники: 
 [^1]: [Apple Music Statistics 2024](https://headphonesaddict.com/apple-music-statistics/)
