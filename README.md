@@ -255,6 +255,10 @@ Aerospike использует архитектуру без общего дос
 
 Используя алгоритм Aerospike Smart Partitions, данные равномерно распределяются по всем узлам кластера.
 
+### Nginx
+Используем механизмы keepalived и health checks. 
+
+### Graceful degradation:
 
 ## 11. Список серверов
 
