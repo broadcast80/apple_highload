@@ -174,7 +174,7 @@
 |Session| Aerospike| session_id - поиск сессии по идентификатору |
 |User| Cassandra | id - при поиске пользователя через плейлист,username - при поиске пользователем других пользователей, email - при входе |
 |Song| Cassandra + S3 | id , name - при поиске пользователем трека по названию|
-|Playlist| Cassandra | name - при поиске пользователем по названию, user_id - при просмотре плейлистов другого пользователя|
+|Playlist| MongoDB | name - при поиске пользователем по названию, user_id - при просмотре плейлистов другого пользователя|
 |Playlist_Song| MongoDB | playlist_id - поиск трека в конкретном плейлисте |
 |LikedSongs| MongoDB | user_id - при просмотре добавленных треков |
 |Genre| Cassandra | name - при поиске жанра по названию |
