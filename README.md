@@ -193,7 +193,7 @@
 ### Резервное копирование 
 
 - MongoDB - Managed Service будет обеспечивать автоматическое резервное копирование
-- Aerospike - Aerospike Backup Service (ABS)
+- Redis - Managed Service for Redis обеспечивает автоматическое и ручное резервное копирование баз данных.
 
 ### Аналитика
 
